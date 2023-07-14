@@ -1,1 +1,21 @@
-
+<book>
+    <bookname>Ikigai</bookname>
+    <author>Abc</author>
+    <price>500</price>
+    <pubdate>2016/02/01</pubdate>
+</book>
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.w3schools.com" 
+elementFormDefault="qualified">
+    <xs:elementname="book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bookname" type="xs:string"/>
+                <xs:element name="author" type="xs:string"/>
+                <xs:element name="price" type="xs:integer"/>
+                <xs:element name="pubdate" type="xs:date"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
