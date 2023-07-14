@@ -1,1 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE book[
+<!ELEMENT book(bookname+,author+,price+,pubdate+)>
+<!ELEMENT bookname(#PCDATA)>
+<!ELEMENT author(#PCDATA)>
+<!ELEMENT price(#PCDATA)>
+<!ELEMENT pubdate(#PCDATA)>
+]>
+
+<book>
+<bookname>Ikigai</bookname>
+<author>Abc</author>
+<price>500</price>
+<pubdate>2016/02/01</pubdate>
+</book>
+<book>
+<bookname>Journey to Ikigai</bookname>
+<author>Ab</author>
+<price>550</price>
+<pubdate>2017/03/02</pubdate>
+</book>
